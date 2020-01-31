@@ -1,0 +1,207 @@
+[
+ {
+   "category": "Cloud Computing",
+   "title": "Cloud Computing",
+   "data": "<b>Cloud computing</b> is the on-demand delivery of compute power, database storage, applications, and other IT resources through a cloud services platform via the internet with pay-as-you-go pricing. With this you can provision only the resources you need and pay for it, instead of having to make huge upfront investments in hardware or data centers. Cloud computing also offers a myriad of services that are normally not usually available, such as Cognitive Computing, Machine Learning, among others.<p/>Some of the advantages are:<p/>1) Go Global in minutes<p/>2) Stop guessing capacity<p/>3) Variable vs capital expenses<p/>4) Economies of scale<p/>5) Increase speed and agility, and<p/>6) Focus on business differentiators."
+ },
+ {
+   "category": "Cloud Watch",
+   "title": "Cloud Watch",
+   "data": "CloudWatch is a monitoring and management service, it provides data and actionable insights to monitor the applications, provides unified view of operational health. It provides complete visibility into your cloud resources and applications, so you can collect, monitor, analyze and act accordingly.<p/>It is natively integrated with more than 70 AWS services such as EC2, S3, DynamoDB, ECS, Lambda, API Gateway etc.>p/>There is no up-front commitment to get started, just pay for what you use."
+ },
+ {
+   "category": "DevOps",
+   "title": "CloudFormation",
+   "data": "CloudFormation allows you to create the AWS infrastructure as code. There is no cost associated with using it.  With this, you can create infrastructure using a standard template in a repeatable pattern. "
+ },
+ {
+   "category": "DevOps",
+   "title": "DevOps",
+   "data": "DevOps is the combination of cultural philosophies, practices, and tools that increases an organizations ability to deliver applications and services at high velocity."
+ },
+ {
+   "category": "DNS",
+   "title": "DNS",
+   "data": "Domain Name System translates human readable domain names to a machine readable IP address. Without it the internet would be hard to navigate."
+ },
+ {
+   "category": "DNS",
+   "title": "Route 53",
+   "data": "Amazon Route53 is a highly scalable DNS service that allows you manage your DNS records by creating a HostedZone for every domain you would like to manage."
+ },
+ {
+   "category": "EBS",
+   "title": "Elastic Block Storage",
+   "data": "EBS provides persistent block storage for EC2 instance that can scale and adapt the performance requirements. Each EBS volume is automatically replicated with Availability Zones to protect from component failures.<p/>SSD volumes provide low-latency, high IOPS and is best suited for boot volumes, transactional workloads such as relational or NoSQL databases.<p/>HDD volumes provides high throughput, streaming IO, and are best suited for Big Data apps, data warehousing, stream and log processing etc."
+ },
+ {
+   "category": "EC2",
+   "title": "Elastic Compute Cloud",
+   "data": "Amazon Elastic Compute Cloud is a web service that provides secure, resizable compute capacity in the cloud. You have complete control of the computing resources. You can quickly provision, scale as your computing needs change and you only pay for what you use."
+ },
+ {
+   "category": "ElastiCache",
+   "title": "ElastiCache",
+   "data": "EastiCache is a fully managed Redis, Memcached service. It provides in-memory datastore and is very popular for Gaming, Ad-Tech, Financial Services, Healthcare, and IoT apps."
+ },
+ {
+   "category": "IAM",
+   "title": "Authentication",
+   "data": "This is the process of signing in to access AWS resources. Certain operations such as S3 and public API gateway access can be performed anonymously, but for most cases you need to authenticate with either the IAM user or access key from AWS CLI."
+ },
+ {
+   "category": "IAM",
+   "title": "Authorization",
+   "data": "This basically checks what you can or cannot do using policies and roles assigned."
+ },
+ {
+   "category": "IAM",
+   "title": "IAM Users",
+   "data": "An AWS Identity and Access Management (IAM) user is an entity that you create in AWS to represent the person or application that uses it to interact with AWS. A user in AWS consists of a name and credentials. AWS root account user should be separate from regular IAM users. Lock away your AWS root account and use IAM users to perform day to day operations."
+ },
+ {
+   "category": "IAM",
+   "title": "Identity and Access Management",
+   "data": "AWS Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources.<p>\nIAM is a feature of your AWS account offered at no additional charge."
+ },
+ {
+   "category": "IAM",
+   "title": "Multi Factor Authentication",
+   "data": "MFA is recommended for the IAM users for better security, especially the root user."
+ },
+ {
+   "category": "IAM",
+   "title": "Policies",
+   "data": "IAM users by default don't have any permissions on any AWS resources. You create policies and assign them to an user or a group. Federated users don't have permanent identity like IAM users, so for them the policies are assigned to the role that the federated is associated to."
+ },
+ {
+   "category": "IAM",
+   "title": "Principals",
+   "data": "A person or application that uses the AWS account root user, an IAM user, or an IAM role to sign in and make requests to AWS."
+ },
+ {
+   "category": "IAM",
+   "title": "Root User",
+   "data": "This is the primary account holder who signs up with the email, and password. It is highly recommended to enable MFA for the root account and store this away. Always use IAM users to perform day to day operations."
+ },
+ {
+   "category": "Kinesis",
+   "title": "Kinesis",
+   "data": "Kinesis is a cloud based real-time processing service. Kinesis producers can push data as soon as it is created to the stream. Kinesis breaks the stream across shards (similar to partitions), determined by your partition key. Each shard has a hard limit on the number of transactions and data volume per second. If you exceed this limit, you need to increase your number of shards. Much of the maintenance and configuration is hidden from the user. AWS allows ease of scaling with users only paying for what they use.<p/>Competitor: Apache Kafka, MS Azure Event Hubs, Google Pub/Sub."
+ },
+ {
+   "category": "Route 53",
+   "title": "Route 53",
+   "data": "This is AWS's Domain Name System (DNS) service. "
+ },
+ {
+   "category": "S3",
+   "title": "S3",
+   "data": "Amazon S3 is highly durable and distributed data store. With a simple web services interface, you can store and retrieve large amounts of data as objects in buckets (containers) at any time, from anywhere on the web using standard HTTP verbs. Has 11 9’s of durability, has encryption in flight and at rest."
+ },
+ {
+   "category": "Security",
+   "title": "Compliance Program",
+   "data": "Third-party auditors assess the security and compliance of Amazon Virtual Private Cloud as part of multiple AWS compliance programs. These include SOC, PCI, FedRAMP, DoD CCSRG, HIPAA BAA, IRAP, MTCS, C5, K-ISMS, ENS-High, OSPAR, and HITRUST-CSF."
+ },
+ {
+   "category": "Security",
+   "title": "Security",
+   "data": "Some of the best practices are: use multiple availability zones (AZs) for high availability, use security group and network ACLs, use IAM policies to control access, use Cloudwatch to monitor VPC, among others."
+ },
+ {
+   "category": "Security",
+   "title": "Shared Responsibility Model",
+   "data": "Security and Compliance is a shared responsibility between AWS and the customer.<p/>AWS is responsible for protecting the infrastructure that runs all of the services offered in the AWS Cloud. This infrastructure is composed of the hardware, software, networking, and facilities that run AWS Cloud services.<p/>The customer assumes responsibility and management of the guest operating system (including updates and security patches), other associated application software as well as the configuration of the AWS provided security group firewall. Remember this varies by the services selected."
+ },
+ {
+   "category": "VPC",
+   "title": "Dynamic Host Control Protocol (DHCP)",
+   "data": "The Dynamic Host Configuration Protocol (DHCP) provides a standard for passing configuration information to hosts on a TCP/IP network."
+ },
+ {
+   "category": "VPC",
+   "title": "Elastic IP",
+   "data": "An Elastic IP address is a static, public IPv4 address designed for dynamic cloud computing. You can associate an Elastic IP address with any instance or network interface for any VPC in your account. With the latter, you can quickly recover from failure and transfer the load to another instance in a single step."
+ },
+ {
+   "category": "VPC",
+   "title": "Elastic Load Balancer",
+   "data": "Elastic Load Balancer (ELB) automatically distributes incoming application traffic across multiple targets (Amazon EC2 instances, containers, IP addresses, and Lambda functions).<p/>\nLoad Balancer types: Application, Network, Classic (previous gen).<p/>\nApplication LBs are used to route HTTP/HTTPS (or Layer 7) traffic, this should fit most needs.<p/>\nNetwork LBs route TCP (or Layer 4) traffic, and are used when you need static IPs or ultra high performance (millions of request per second) while maintaining ultra-low latencies; Network LB can also handle sudden and volatile traffic patterns.<p/>\nClassic LB also routes TCP (Layer 4) traffic.<p/>\nFor LBs, you need 2 public facing subnets.<p/>"
+ },
+ {
+   "category": "VPC",
+   "title": "Internet Gateways",
+   "data": "The Amazon VPC side of a connection to the public Internet."
+ },
+ {
+   "category": "VPC",
+   "title": "NAT Gateway",
+   "data": "A highly available, managed Network Address Translation (NAT) service for your resources in a private subnet to access the Internet.<p/> Network Address Translation (NAT) gateway allows instances in a private subnet to connect to the internet or other AWS Services.<p/>\nHowever note that NAT Gateways reside in the public subnet.<p/>\nElastic IPs needs to be associated with NAT gateway, and cannot be changed.<p/>\nUpdate Route table associated with the private subnets to point the internet bound traffic to the NAT Gateway, this enables the instances in your private subnet to communicate with the internet.<p/>\nBuild to be highly available, redundancy is built in.<p/>\nNAT Gateways are not free, you are charged to create and useit.<p/> \nSupports 5 Gbps bandwidth and scales upto 45 Gbps.<p/>\nNat Gateway operates on IPv4 and we have Egress-only Internet Gateways that operates on IPv6.<p/>\nTakes about 10-15 minutes for this to be provisioned.<p/> \nBastion servers are not supported in NAT Gateways, so you can use a NAT Instance for that.<p/>"
+ },
+ {
+   "category": "VPC",
+   "title": "NAT Instances",
+   "data": "NAT Instances are on their way out and is being replaced with NAT Gateways.<p/>\nThey are available as instances in EC2.<p/>\nDisadvantages being it's single instance in a single Availability Zone.<p/>"
+ },
+ {
+   "category": "VPC",
+   "title": "Network ACL (NACL)",
+   "data": "Network ACL (NACL) is an optional layer of security for your VPC that acts as a firewall for controlling in/outbound traffic from subnets.<p/> \nYou might setup NACLs rules similar to your security groups for an additional layer of security for the VPC.<p/> \nA Subnet can be associated with only 1 NACL.<p/>\nVPC comes with a default ACL, and by default allows all in/outbound traffic.<p/>\nIf you create a Custom ACL, the default behavior for in/outbound rules is to DENY all traffic.<p/>\nNACLs are accessed before Security Group.<p/>\nNACLs can span Availability Zones, Subnets cannot.<p/> \nNACLs contain numbered list of rules and are evaluated in order starting from the lowest one.<p/>\nNACLs can block specific IP address but Security Group cannot.<p/> "
+ },
+ {
+   "category": "VPC",
+   "title": "PrivateLink",
+   "data": "AWS PrivateLink enables customers to access services hosted on AWS easily but securely by keeping all the network traffic within the AWS network.<p/>PrivateLink removes the need of whitelisting public IPs, or using an Internet Gateway, VPN, a Network Address Translation (NAT) device, or firewall proxies to connect to AWS services. "
+ },
+ {
+   "category": "VPC",
+   "title": "Route Tables",
+   "data": "A route table contains a set of rules, called routes, that are used to determine where network traffic from your subnet or gateway is directed."
+ },
+ {
+   "category": "VPC",
+   "title": "Subnets",
+   "data": "A segment of a VPC’s IP address range where you can place groups of isolated resources."
+ },
+ {
+   "category": "VPC",
+   "title": "Virtual Private Cloud",
+   "data": "VPC lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define. You have complete control over your virtual networking environment, including selection of your own IP address range, creation of subnets, and configuration of route tables and network gateways.<p/>You have complete control of the configuration, i.e. create a public-facing subnet for your web servers that has access to the Internet, and place your backend systems such as databases or application servers in a private-facing subnet with no Internet access. You can leverage multiple layers of security, including security groups and network access control lists, to help control access to Amazon EC2 instances in each subnet.<p/>It is secure, reliable and scalable.<p/>Connect securely to your corporate datacenter - All traffic to and from instances in your VPC can be routed to your corporate datacenter over an industry standard, encrypted IPsec hardware VPN connection.<p/>VPC Peering allows one VPC to connect to other VPCs to share resources across multiple virtual networks owned by your or other AWS accounts.<p/>There are no charges for creating and using the VPC itself."
+ },
+ {
+   "category": "VPC",
+   "title": "VPC Tips",
+   "data": "VPC is a virtual datacenter on the cloud.<p/> \nEvery AWS region in the world has a default VPC.<p/>\nInternet Gateway allows traffic from the internet, there can be only one IG and is highly available and is spread across all Availability Zones.<p/>\nVirtual Private Gateway allows traffic from VPN.<p/>\nRouter intercepts the traffic and Route Table, Network ACL (NACL) directs them further to the subnets.<p/>\nSecurity Groups (SGs) are in the subnets, 1:1 ratio with the subnets, however SGs can span subnets.<p/>\nOne Subnet always equals one Availability zone, i.e. there's 1:1 ratio netween subnet and AZ.<p/>\nInternal IP ranges are 10.0.0.0 or 172.16.0.0 or 192.168.0.0 ranges.<p/>\nhttp://cidr.xyz is a good website to visualize the IP address ranges.<p/>\nCIDR block /16 gives you 65,536 IPs, /24 gives your 256 IPs, and the smallest being /28 for 16 IP addresses.<p/>\nSoft limit for VPCs is 5 in a region, but you can get that increased by emailing AWS.<p/>\n5 IP addresses (first 4 and last) in a range are reserved by AWS on the Subnet.<p/>\nYou cannot increase or decrease the size of an existing CIDR block.<p/>\nVPC comes with default NACL (Network Access list), and allows all inbound and outbound traffic.<p/> \nCustom NACL denies all inbound and outbound traffic, add rules to enable them.<p/>\nEach subnet in your VPC must have a NACL, if you don't specify it uses default one.<p/> Only one NACL is allowed for a subnet.<p/> \nEach NACL can be associated with multiple subnets.<p/>\nBlock IPs addresses using NACL not Security Groups.<p/>\nFor Application Load balancers, you need at least 2 public subnets.<p/>\nVPC Flow Logs enable monitoring of network traffic, can't be tagged.<p/>\nVPC Peering allows one VPC to talk to another VPC (even across accounts) over a private network.<p/>\nVPC Peering is always in a Star configuration, there's a central VPC and that's peerer with 4 others.<p/>"
+ },
+ {
+   "category": "Well Architected Framework",
+   "title": "Pillar: Cost Optimization",
+   "data": "Adopt a consumption model.<p/>Measure overall efficiency.<p/>Stop spending money on data center operations.\\nAnalyze and attribute expenditure.<p/>Use managed and application level services to reduce cost of ownership. "
+ },
+ {
+   "category": "Well Architected Framework",
+   "title": "Pillar: Operational Excellence",
+   "data": "Perform operations as Code.<p/>Annotate documentation.<p/>Make frequent, small, reversible changes.<p/>Refine operations procedures frequently.<p/>Anticipate failure.<p/>Learn from all operational failures."
+ },
+ {
+   "category": "Well Architected Framework",
+   "title": "Pillar: Performance Efficiency",
+   "data": "Democratize advanced technologies.<p/>Go global in minutes.<p/>Use serverless architectures.<p/>Experiment more often.<p/>Mechanical sympathy."
+ },
+ {
+   "category": "Well Architected Framework",
+   "title": "Pillar: Reliability",
+   "data": "Test recovery procedures.<p/>Automatically recover from failures.<p/>Scale horizontally to increase aggregate systems availability.<p/>Stop guessing capacity.<p/>Manage change in automation."
+ },
+ {
+   "category": "Well Architected Framework",
+   "title": "Pillar: Security",
+   "data": "Implement a strong identity foundation.<p/>Enable traceability:<p/>Apply security at all layers.<p/>Automate security best practices<p/>Protect data in transit and at rest.<p/>Keep people away from data.<p/>Prepare for security events."
+ },
+ {
+   "category": "Well Architected Framework",
+   "title": "Pillars",
+   "data": "1) Operational Excellence: Ability to run and monitor systems to deliver business value and to continually improve supporting processes and procedures.\\n\\n2) Security: Ability to protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies.\\n\\n3) Reliability: Ability of a system to recover from infrastructure or service disruptions, dynamically acquire computing resources to meet demand, and mitigate disruptions such as misconfigurations or transient network issues.\\n\\n4) Performance Efficiency: Ability to use computing resources efficiently to meet system requirements, and to maintain that efficiency as demand changes and technologies evolve.\\n\\n5) Cost Optimization: Ability to run systems to deliver business value at the lowest price point."
+ }
+]
